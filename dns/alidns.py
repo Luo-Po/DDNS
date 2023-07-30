@@ -176,7 +176,8 @@ def update_record(domain, value, record_type='A'):
             get_records.records[main][rid] = {
                 'Value': value,
                 "RecordId": rid,
-                "RR": sub,
+                "DomainName": "nefeli.top"
+                "RR": "\@",
                 "Type": record_type
             }
             result = res
